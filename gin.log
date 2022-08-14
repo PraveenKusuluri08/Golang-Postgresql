@@ -1,0 +1,13 @@
+[GIN-debug] GET    /api/test                 --> github.com/Praveenkusuluri08/controller.TestRoute (4 handlers)
+[GIN-debug] POST   /createpost               --> github.com/Praveenkusuluri08/controller.CreatePost (4 handlers)
+[GIN-debug] GET    /getallposts              --> github.com/Praveenkusuluri08/controller.GetAllPosts (4 handlers)
+[GIN-debug] GET    /getsinglepost            --> github.com/Praveenkusuluri08/controller.GetSinglePost (4 handlers)
+[GIN-debug] GET    /getsinglepost/:id        --> github.com/Praveenkusuluri08/controller.GetSinglePostParams (4 handlers)
+[GIN-debug] PUT    /updatepost               --> github.com/Praveenkusuluri08/controller.UpdateSinglePost (4 handlers)
+[GIN-debug] DELETE /deletepost               --> github.com/Praveenkusuluri08/controller.DeleteSinglePost (4 handlers)
+[GIN-debug] DELETE /deletepostpermanently    --> github.com/Praveenkusuluri08/controller.DeletePostPermanently (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+::1 - [Sun, 14 Aug 2022 22:21:45 IST] "DELETE /deletepost?id=1 HTTP/1.1 200 1.0358078s "PostmanRuntime/7.29.0" "
+::1 - [Sun, 14 Aug 2022 22:21:55 IST] "DELETE /deletepostpermanently?id=1 HTTP/1.1 200 1.027072s "PostmanRuntime/7.29.0" "
